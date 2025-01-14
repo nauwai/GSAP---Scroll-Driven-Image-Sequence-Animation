@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#home {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("img/frame1.jpg");
+    background-size: cover; /* Ajuste la taille pour remplir tout l'espace */
+    background-position: center; /* Centre l'image pour qu'elle corresponde au canvas */
+    background-repeat: no-repeat; /* Empêche la répétition */
+}
+
+
+canvas {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+
+.landing-container {
+    margin-left: 320px;
+    margin-bottom: 190px;
+}
+
+
+.landing-text-title {
+    font-family: "Lemon Milk";
+    margin-left: 30px;
+    margin: 0px;
+    font-size: 27.5px;
+    font-weight: 800;
+    text-align: start;
+}
+
+.background-landing {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bean-landing-mockup.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    text-align: center;
+}
+
+.btn-landing {
+    font-family: "LEMON MILK";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 0px 5px rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+
+}
+
+.btn-landing:hover {
+    box-shadow: 0px 0px 0px 5px rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+
+.card-landing-left {
+    width: 550px;
+    height: 350px;
+    background-color: #050505;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #232323, #595959) 1;
+    border-radius: 20px;
+    margin-right: 350px;
+    overflow: hidden;
+    box-shadow: none;
+
+}
+
+.card-landing-right {
+    width: 550px;
+    height: 350px;
+    background-color: #050505;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #232323, #595959) 1;
+    border-radius: 20px;
+    margin-left: 350px;
+    overflow: hidden;
+    box-shadow: none;
+}
+
+
+.bricolage-grotesque-white {
+    font-family: "Bricolage Grotesque";
+    color: white;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.text-landing-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.color-back {
+    background-color: black;
+}
+
+.a-propos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.bricolage-grotesque-black {
+    font-family: "Bricolage Grotesque";
+    color: black;
+}
+
+.lemon-black {
+    font-family: "LEMON MILK";
+    color: black;
+}
+
+
+.lemon-white {
+    font-family: "LEMON MILK";
+    color: white;
+}
+
+
+.image-lumineuse-70 {
+    filter: brightness(70%);
+}
+
+
+.image-lumineuse-80 {
+    filter: brightness(80%);
+}
+
+.image-lumineuse-90 {
+    filter: brightness(90%);
+}
+
+
+.card-content-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.papers-plane-icon {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 15%;
+    transform: rotate(20deg);
+
+}
+
+.position-elements {
+    position: fixed;
+    z-index: 9999;
+    top: 550px;
+    left: 300px;
+
+}
+
+
+a {
+    text-decoration: none;
+
+}
